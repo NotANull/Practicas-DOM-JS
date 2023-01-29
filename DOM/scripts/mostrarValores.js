@@ -3,7 +3,7 @@ function mostrarValores() {
     let formularioJs = document.forms['formularioHtml'];
     for (const elementosForm of formularioJs) {
         if (elementosForm.value !== "") {
-            cadena += " " + elementosForm.value;
+            cadena += " " + elementosForm.value; // con ".un_atributo" podemos acceder a cualquier atributo del objeto (etiqueta) de HTML
         } else {
             alert('Elemento vacío');
         }
