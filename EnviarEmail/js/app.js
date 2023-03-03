@@ -12,12 +12,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const inputMensaje = document.querySelector('#mensaje');
     const formulario = document.querySelector('#formulario');
     const btnSubmit = document.querySelector('#formulario button[type="submit"]');
+    const btnReset = document.querySelector('#formulario button[type="reset"]');
 
     // Asignar eventos
 
-    inputEmail.addEventListener('blur', validar);  // blur es cuando salís de un campo. La otra es usar input ya que toma el evento de cuando estás escribiendo en el campo
-    inputAsunto.addEventListener('blur', validar);
-    inputMensaje.addEventListener('blur', validar);
+    inputEmail.addEventListener('input', validar);  // blur es cuando salís de un campo. La otra es usar input ya que toma el evento de cuando estás escribiendo en el campo
+    inputAsunto.addEventListener('input', validar);
+    inputMensaje.addEventListener('input', validar);
+
+    btnReset.addEventListener('click', e => {
+        // e.preventDefault();
+        
+        // Reiniciar el objeto. Si no lo hacemos, el objeto queda cargado y el botón de enviar queda habilitado (ver método comprobarEmail())
+        email.email = '';
+        email.asunto = '';
+        email.mensaje = '';
+
+        comprobarEmail();
+
+    });
 
     function validar(e) {
         //console.log(e.target.parentElement); // Del elemento que estoy apuntando, me voy a su elemento padre
