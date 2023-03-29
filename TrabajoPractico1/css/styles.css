@@ -1,0 +1,67 @@
+
+
+/* DOCUMENT */
+
+.colorcito {
+    background-color: rgb(212, 90, 64);
+}
+
+/* CONTENEDOR PRINCIPAL */
+.mar-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max {
+    max-width: 50rem;
+}
+
+.pad {
+    padding: 2rem;
+}
+
+/* IMG */
+
+img {
+    padding-left: 10rem;
+    padding-top: 3rem;
+    width: 25rem;
+    height: 25rem;
+}
+
+/* SÓLO h1 */
+
+h1 {
+    margin: 0;
+}
+
+.p-top {
+    padding-top: 8rem;
+}
+
+/* FORMULARIO */
+
+.pad {
+    padding: 2.5rem;
+}
+
+.back-g {
+    background-color: rgb(255 255 255);
+}
+
+.un-borde {
+    border-radius: 0.5rem;
+}
+
+.margen {
+    margin-top: 1.25rem;
+}
+
+/* ELEMENTOS DEL FORMULARIO */
+.flex-col {
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
