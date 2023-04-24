@@ -1,0 +1,17 @@
+/* navbar */
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+ .m-btm {
+    margin-bottom: 250px;
+ }
+ 
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-inner img {
+    filter: brightness(60%);
+}
