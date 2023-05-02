@@ -1,29 +1,29 @@
 /* navbar */
 
 .navbar-collapse {
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
- .m-btm {
-    margin-bottom: 250px;
- }
- 
+.p-btm {
+  margin-bottom: 10%;
+}
+
 p {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .carousel-inner img {
-    filter: brightness(60%);
+  filter: brightness(60%);
 }
 
 .oradores {
-    padding: 15px 60px 60px 60px;
+  padding: 15px 60px 60px 60px;
 }
 
 .ba-octubre {
-    background-color: rgb(51, 58, 64);
+  background-color: rgb(51, 58, 64);
 }
 
-.ba-octubre p{
-    font-size: 0.8rem;
+.ba-octubre p {
+  font-size: 0.8rem;
 }
