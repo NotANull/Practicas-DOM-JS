@@ -19,7 +19,7 @@ function eventListeners() {
 function calcularResumen() {
     
     if ( (inputCantidad.value === '') || (isNaN(inputCantidad.value)) || (inputCantidad.value <= 0) ){
-        alert('Por favor, introduce una cantida válida');
+        alert('Por favor, introduce una cantidad válida');
         inputCantidad.value = '';
         return;
     }
